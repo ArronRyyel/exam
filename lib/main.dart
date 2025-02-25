@@ -96,12 +96,13 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
         SizedBox(height: 20),
+
+        // Profile Picture with Asset Image
         CircleAvatar(
           radius: 50,
-          backgroundColor: Colors.black,
-          child: Icon(Icons.person, size: 50, color: Colors.grey.shade700),
+          backgroundImage: AssetImage('assets/profile/image0.jpg'),
         ),
-        SizedBox(height: 20),
+        SizedBox(height: 10),
         Text(
           'Lloyd Aaron Ryel Capili',
           style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
@@ -113,7 +114,7 @@ class _HomeScreenState extends State<HomeScreen> {
         Padding(
           padding: const EdgeInsets.all(15.0),
           child: Text(
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+            ' a journey of growth, learning, and discovery. Each challenge makes you stronger, and every lesson shapes your future. It’s not just about grades—it’s about curiosity, resilience, and progress. Keep going, you’ve got this!',
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 14),
           ),
@@ -141,7 +142,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // Video Screen Widget (index 1)
   // Video Screen Widget (index 1)
   Widget _buildVideoScreen() {
     List<String> videoTitles = [
@@ -231,18 +231,18 @@ class _HomeScreenState extends State<HomeScreen> {
       },
       {
         "title": "Like Him (feat. Lola Young)",
-        "duration": "2:48",
-        "file": "assets/audios/audio2.mp3",
+        "duration": "4:38",
+        "file": "assets/audios/audio3.mp3",
       },
       {
-        "title": "Make It To The Morning",
-        "duration": "2:48",
-        "file": "assets/audios/audio2.mp3",
+        "title": "Same Shit",
+        "duration": "2:44",
+        "file": "assets/audios/audio4.mp3",
       },
       {
-        "title": "Make It To The Morning",
-        "duration": "2:48",
-        "file": "assets/audios/audio2.mp3",
+        "title": "Mrs. Officer",
+        "duration": "4:46",
+        "file": "assets/audios/audio5.mp3",
       },
     ];
 
